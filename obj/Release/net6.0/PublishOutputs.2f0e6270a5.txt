@@ -1,0 +1,11 @@
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\WebApi.exe
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\appsettings.Development.json
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\appsettings.json
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\WebApi.dll
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\WebApi.deps.json
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\WebApi.runtimeconfig.json
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\WebApi.pdb
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\Microsoft.OpenApi.dll
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nakim\source\repos\WebAPI\bin\Release\net6.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
