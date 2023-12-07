@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>WebApi</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\nakim\source\repos\WebAPI\Properties\PublishProfiles\susan-webapi - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\nakim\source\repos\WebAPI\Properties\PublishProfiles\susan-webapp - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
