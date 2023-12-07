@@ -3,7 +3,7 @@ name: Build and Deploy to Azure App Service
 on:
   workflow_dispatch:
 env:
-  AZURE_WEBAPP_NAME: susan-webapi
+  AZURE_WEBAPP_NAME: susan-webapp
   AZURE_WEBAPP_PACKAGE_PATH: "."
 
 jobs:
