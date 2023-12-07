@@ -6,11 +6,20 @@ on:
     branches:
     - main
 
+<<<<<<< HEAD
+=======
+
+env:
+  AZURE_WEBAPP_NAME: susan-webapi
+  AZURE_WEBAPP_PACKAGE_PATH: "./publish"
+
+>>>>>>> origin
 jobs:
   publish:
     runs-on: ubuntu-latest
 
     steps:
+<<<<<<< HEAD
      - uses: actions/checkout@v4
 
      - name: Setup .NET
@@ -27,4 +36,26 @@ jobs:
      - name: Publish
        run:  dotnet publish ./WebAPI.sln --configuration Release --no-build
       
+=======
+      - uses: actions/checkout@v4
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '6.0.x'
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build
+      - name: Test with the dotnet CLI
+        run: dotnet test
+
+      - name: Deployment to Azure App Service
+        uses : azure/webapps-deploy@v2
+        with:
+          app-name: ${{ env.AZURE_WEBAPP_NAME }}
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: " ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
+          
+            
+>>>>>>> origin
 
